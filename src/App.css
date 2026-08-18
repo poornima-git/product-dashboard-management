@@ -1,0 +1,62 @@
+body {
+    margin: 0;
+    background-color: #f5f5f5;
+    color: #222;
+}
+
+.dashboard-card {
+    padding: 30px 25px;
+    border-radius: 8px;
+    min-height: 130px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.15);
+}
+
+.dashboard-card h6 {
+    font-size: 16px;
+    font-weight: 600;
+}
+
+.dashboard-card h2 {
+    font-size: 32px;
+    margin-top: 15px;
+}
+
+.dashboard-box {
+    background-color: white;
+    padding: 25px;
+    border-radius: 8px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.10);
+}
+
+.dashboard-box h4 {
+    color: #172b4d;
+    font-weight: 600;
+}
+
+.table {
+    background-color: white;
+}
+
+.card {
+    border: none;
+}
+
+.navbar-brand {
+    font-size: 24px;
+}
+
+.nav-link {
+    margin-left: 10px;
+}
+
+@media (max-width: 768px) {
+
+    .navbar-nav {
+        margin-top: 10px;
+    }
+
+    .dashboard-card {
+        margin-bottom: 10px;
+    }
+
+}
